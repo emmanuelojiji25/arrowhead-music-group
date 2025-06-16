@@ -1,4 +1,5 @@
 import Button from "../components/Components";
+import ScrollingBanner from "../components/ScrollingBanner";
 import "./Home.scss";
 
 const Home = () => {
@@ -27,6 +28,10 @@ const Home = () => {
           <Button text="testtttt" />
         </div>
       </div>
+
+      <ScrollingBanner text="Quality" />
+      <ScrollingBanner text="Direction" direction="reverse" />
+      <ScrollingBanner text="Power" />
     </div>
   );
 };

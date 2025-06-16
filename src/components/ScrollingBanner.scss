@@ -1,0 +1,27 @@
+.ScrollingBanner {
+  background: black;
+  width: 100%;
+  height: 70px;
+  min-width: fit-content;
+  background: #33dea5;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  animation: scrollLeft 80s linear infinite;
+  will-change: transform;
+}
+
+.words-set {
+  display: flex;
+  gap: 20px;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
