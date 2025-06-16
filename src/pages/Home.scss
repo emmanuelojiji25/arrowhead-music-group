@@ -1,0 +1,24 @@
+.home-billboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background: black;
+  color: white;
+}
+
+.the-rise-program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+  text-align: center;
+
+  .page-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

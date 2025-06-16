@@ -1,0 +1,17 @@
+.Header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-amg{
+    margin-right: 20px;
+}
