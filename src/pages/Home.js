@@ -1,4 +1,5 @@
 import Button from "../components/Components";
+import PillarsCarousel from "../components/PillarsCarousel";
 import ScrollingBanner from "../components/ScrollingBanner";
 import "./Home.scss";
 
@@ -29,9 +30,9 @@ const Home = () => {
         </div>
       </div>
 
-      <ScrollingBanner text="Quality" />
-      <ScrollingBanner text="Direction" direction="reverse" />
-      <ScrollingBanner text="Power" />
+      <div className="scrolling-banner-container">
+        <PillarsCarousel />
+      </div>
     </div>
   );
 };

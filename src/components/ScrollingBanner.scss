@@ -1,14 +1,18 @@
 .ScrollingBanner {
+  overflow: hidden;
+}
+
+.carousel {
   background: black;
   width: 100%;
-  height: 70px;
   min-width: fit-content;
   background: #33dea5;
-  height: 70px;
   display: flex;
   align-items: center;
   animation: scrollLeft 80s linear infinite;
   will-change: transform;
+  font-size: 50px;
+  font-family: arial;
 }
 
 .words-set {
