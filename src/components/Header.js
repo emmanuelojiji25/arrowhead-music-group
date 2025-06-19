@@ -1,5 +1,6 @@
 import "./Header.scss";
 import logo from "../assets/amg-logo.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,14 +9,14 @@ const Header = () => {
         <img src={logo} className="logo-amg" alt="Arrowhead Music Group Logo" />
 
         <nav>
-          <a>Home</a>
-          <a>Roster</a>
-          <a>About</a>
-          <a>Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/roster">Roster</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       </div>
 
-      <a>The Rise Program</a>
+      <Link to="/theriseprogram" className="header-right-link">The Rise Program</Link>
     </div>
   );
 };

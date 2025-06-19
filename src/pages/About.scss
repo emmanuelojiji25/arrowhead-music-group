@@ -1,0 +1,23 @@
+.about-carousel {
+padding-bottom: 3%;
+
+}
+
+.about-carousel-inner {
+  display: flex;
+  transition: 0.3s ease-in-out;
+  padding: 5% 0;
+}
+
+
+.arrows {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+
+.slide{
+min-width: 100%;
+
+}
+

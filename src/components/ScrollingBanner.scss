@@ -3,7 +3,6 @@
 }
 
 .carousel {
-  background: black;
   width: 100%;
   min-width: fit-content;
   background: #33dea5;
@@ -11,8 +10,9 @@
   align-items: center;
   animation: scrollLeft 80s linear infinite;
   will-change: transform;
-  font-size: 50px;
+  font-size: 55px;
   font-family: arial;
+  padding: 1% 0;
 }
 
 .words-set {

@@ -1,10 +1,15 @@
 .Header {
   background: black;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 2%;
+  gap: 20px;
+
+  a {
+    color: white;
+    margin-right: 20px;
+  }
 }
 
 .header-left {
@@ -12,6 +17,10 @@
   align-items: center;
 }
 
-.logo-amg{
-    margin-right: 20px;
+.logo-amg {
+  margin-right: 20px;
+}
+
+.header-right-link {
+  color: #33dea5 !important;
 }

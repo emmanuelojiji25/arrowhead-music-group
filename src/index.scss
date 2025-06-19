@@ -2,11 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 
 .page-width {
   width: 100%;
   max-width: calc(1200px + 5%);
-  padding: 0 3%;
   margin: 0 auto;
+  padding: 0 5%;
 }
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.text-xl {
+  font-size: 50px;
+}
+
+.text-l {
+  font-size: 35px;
+}
+
+.text-s {
+  font-family: 16px;
+}
+

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../components/Components";
 import PillarsCarousel from "../components/PillarsCarousel";
 import ScrollingBanner from "../components/ScrollingBanner";
@@ -8,7 +9,7 @@ const Home = () => {
     <div className="Home">
       <div className="home-billboard">
         <div className="page-width">
-          <h1>
+          <h1 className="text-xl">
             Welcome to Arrowhead Music Group. We’re shaping the future of
             performance and sound.
           </h1>
@@ -17,7 +18,7 @@ const Home = () => {
 
       <div className="the-rise-program">
         <div className="page-width">
-          <h2>The Rise Program</h2>
+          <h2 className="text-l">The Rise Program</h2>
           <p>
             The Ascend Program exists to discover, develop, and elevate
             exceptional artists through strategic mentorship, creative
@@ -26,7 +27,9 @@ const Home = () => {
             unstoppable momentum.
           </p>
 
-          <Button text="testtttt" />
+          <Link to="/theriseprogram">
+            <Button text="Apply Now" />
+          </Link>
         </div>
       </div>
 

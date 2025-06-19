@@ -1,3 +1,4 @@
+import { Popover, PopupButton, Widget } from "@typeform/embed-react";
 import PillarsCarousel from "../components/PillarsCarousel";
 import "./TheRiseProgram.scss";
 
@@ -18,8 +19,15 @@ const TheRiseProgram = () => {
             resources, and real-world experience to transform raw talent into
             unstoppable momentum.
           </h2>
+          <PopupButton
+            id="zM1KuFzw"
+            style={{ fontSize: 20 }}
+            className="my-button"
+          >
+            click to open form in popup
+          </PopupButton>
         </div>
-        <PillarsCarousel/>
+        <PillarsCarousel />
       </main>
     </>
   );
