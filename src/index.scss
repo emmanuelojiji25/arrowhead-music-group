@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Helvetica;
+
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .page-width {
@@ -17,6 +18,10 @@ a {
   color: initial;
 }
 
+h1,h2,h3,h4,h5{
+  letter-spacing: -2px;
+}
+
 .text-xl {
   font-size: 50px;
 }
@@ -26,6 +31,17 @@ a {
 }
 
 .text-s {
-  font-family: 16px;
+  font-size: 18px;
 }
 
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}

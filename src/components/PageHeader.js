@@ -1,3 +1,4 @@
+import Button from "./Button";
 import "./PageHeader.scss";
 
 const PageHeader = ({ title }) => {
@@ -5,7 +6,8 @@ const PageHeader = ({ title }) => {
     <>
       <div className="PageHeader">
         <div className="page-width">
-          <h1>{title}</h1>
+          <h1 className="text-l">{title}</h1>
+          <Button text="Apply" style="btn-light" />
         </div>
       </div>
     </>
