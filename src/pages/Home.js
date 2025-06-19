@@ -28,7 +28,7 @@ const Home = () => {
           </p>
 
           <Link to="/theriseprogram">
-            <Button text="Apply Now" />
+            <Button text="Apply Now" style="btn-dark" />
           </Link>
         </div>
       </div>

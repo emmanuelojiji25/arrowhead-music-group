@@ -18,7 +18,7 @@ const ScrollingBanner = ({ text, direction, even }) => {
           background: even && "#30CD99",
         }}
       >
-        <div className="words-set">
+        <div className="words-set text-l">
           {words.map((word, index) => (
             <h1 key={`1-${index}`}>{text}</h1>
           ))}

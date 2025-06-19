@@ -16,7 +16,7 @@ const Header = () => {
         </nav>
       </div>
 
-      <Link to="/theriseprogram" className="header-right-link">The Rise Program</Link>
+      <Link to="/theriseprogram" className="header-right-link bold">The Rise Program</Link>
     </div>
   );
 };

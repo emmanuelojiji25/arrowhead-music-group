@@ -26,7 +26,7 @@ const About = ({ title }) => {
 
       <div className="about-carousel">
         <div
-          className="about-carousel-inner text-l"
+          className="about-carousel-inner text-l light"
           style={{ transform: `translateX(-${view * 100}%)` }}
         >
           <div className="slide-1 slide">
