@@ -16,7 +16,7 @@ const TheRiseProgram = () => {
             resources, and real-world experience to transform raw talent into
             unstoppable momentum.
           </p>
-          <ul className="bold text-l">
+          <ul className="medium text-l">
             <li>Up to £1500 artist grant</li>
             <li>Artist Management</li>
             <li>Artist Development</li>
