@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/arrowhead-music-group/static/css/main.1f09c747.css",
+    "main.js": "/arrowhead-music-group/static/js/main.a3d30feb.js",
+    "static/media/amg-logo.svg": "/arrowhead-music-group/static/media/amg-logo.c790f5f17ab10d221dd2ca976cc64c0a.svg",
+    "index.html": "/arrowhead-music-group/index.html",
+    "main.1f09c747.css.map": "/arrowhead-music-group/static/css/main.1f09c747.css.map",
+    "main.a3d30feb.js.map": "/arrowhead-music-group/static/js/main.a3d30feb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f09c747.css",
+    "static/js/main.a3d30feb.js"
+  ]
+}
