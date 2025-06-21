@@ -16,24 +16,18 @@ const TheRiseProgram = () => {
             resources, and real-world experience to transform raw talent into
             unstoppable momentum.
           </p>
-          <ul className="medium text-l">
-            <li>Up to £1500 artist grant</li>
-            <li>Artist Management</li>
-            <li>Artist Development</li>
-            <li>Brand Building</li>
-            <li>Personal Development</li>
+          <ul className="medium text-s">
+            <li>> Up to £1500 artist grant</li>
+            <li>> Artist Management</li>
+            <li>> Artist Development</li>
+            <li>> Brand Building</li>
+            <li>> Personal Development</li>
           </ul>
-          <PopupButton
-            id="zM1KuFzw"
-            style={{ fontSize: 20 }}
-            className="my-button"
-          >
-            click to open form in popup
+          <PopupButton id="zM1KuFzw" className="Button btn-dark">
+            Apply Now
           </PopupButton>
-
         </div>
         <PillarsCarousel />
-        
       </main>
     </>
   );
