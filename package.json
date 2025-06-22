@@ -43,7 +43,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "sass": "^1.89.2"
-  },
-  "homepage": "https://emmanuelojiji25.github.io/arrowhead-music-group"
-
+  }
 }

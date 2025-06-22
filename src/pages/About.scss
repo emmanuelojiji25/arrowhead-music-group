@@ -1,6 +1,14 @@
-.about-carousel {
-padding-bottom: 3%;
+.About {
+  main {
+    .page-width {
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+  }
+}
 
+.about-carousel {
+  padding-bottom: 3%;
 }
 
 .about-carousel-inner {
@@ -9,14 +17,12 @@ padding-bottom: 3%;
   padding: 5% 0;
 }
 
-
 .arrows {
   display: flex;
   width: 100%;
   gap: 50px;
 }
 
-.slide{
-min-width: 100%;
+.slide {
+  min-width: 100%;
 }
-

@@ -1,5 +1,10 @@
 .Roster {
-  background: black;
-  color: white;
   flex: 1;
+
+  main{
+  .page-width{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  }
 }
